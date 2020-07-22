@@ -16,9 +16,24 @@ python ParameterTunerMain.py
 Python Environment
 ---
 
+
 ```
 pip freeze > requirements.txt
 ```
+
+Setting up the virtual environment with conda:
+
+```
+>conda create -n PyQt5 python=3.8
+>conda activate PyQt5
+>pip install numpy
+>pip install scipy
+>pip install matplotlib
+>pip install opencv-contrib-python
+>pip install PyQt5
+
+```
+
 
 ### License
 
